@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Productos</title>
+  <link rel="stylesheet" href="../../../style.css">
+</head>
+<body>
+  <header>
+    <h1>Catálogo</h1>
+    <a href="../cart/cart.html">Ver Carrito</a>
+  </header>
+
+  <main class="catalog-layout">
+    <aside>
+      <h3>Categorías</h3>
+      <ul id="categories-list"></ul>
+    </aside>
+
+    <section>
+      <input type="text" id="search-input" placeholder="Buscar por nombre...">
+      <div id="products-container"></div>
+    </section>
+  </main>
+
+  <script type="module" src="./home.ts"></script>
+</body>
+</html>
