@@ -3,6 +3,8 @@
 ## ✍️ Descripción
 
 Este parcial tiene como consigna la construcción de un carrito dinámico que pueda almacenar operaciones y no perderlas entre sesiones mediante el uso de 'localstorage'
+---
+
 Enlace al video demostración: https://youtu.be/62Fk4BUMYXU
 
 ---
